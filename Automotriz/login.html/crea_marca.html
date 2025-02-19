@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Marca</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Barra de Navegación -->
+    <nav class="bg-yellow-400 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="text-black font-bold text-xl">LOGO</span>
+            <button onclick="window.location.href='login.html'" class="text-black font-bold">Inicio</button>
+        </div>
+    </nav>
+
+    <!-- Sección de Registro de Marca -->
+    <div class="flex justify-center items-center mt-10">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-[600px]">
+            <h2 class="text-xl font-bold mb-4 text-center">Registro de Marca</h2>
+
+            <h2 class="text-xl font-semibold mb-4 text-center">Hola, te pedimos algunos datos para crear una cuenta de marca</h2>
+            <form>
+                <div class="grid grid-cols-2 gap-4">
+                    <input type="text" placeholder="Nombre Comercial" class="border px-4 py-2 rounded-lg">
+                    <input type="text" placeholder="Teléfono de la empresa" class="border px-4 py-2 rounded-lg">
+                    <input type="text" placeholder="CIF" class="border px-4 py-2 rounded-lg">
+                    <button class="bg-yellow-400 text-black px-4 py-2 rounded-lg font-semibold">Upload</button>
+                    <button class="bg-yellow-400 text-black px-4 py-2 rounded-lg font-semibold">Identificación Oficial</button>
+                </div>
+
+                <h3 class="mt-6 font-semibold">Dirección</h3>
+                <div class="grid grid-cols-2 gap-4 mt-2">
+                    <input type="text" placeholder="Calle" class="border px-4 py-2 rounded-lg">
+                    <input type="text" placeholder="Número exterior" class="border px-4 py-2 rounded-lg">
+                    <input type="text" placeholder="Número interior" class="border px-4 py-2 rounded-lg">
+                    <input type="text" placeholder="Colonia" class="border px-4 py-2 rounded-lg">
+                    <input type="text" placeholder="Código Postal" class="border px-4 py-2 rounded-lg">
+                </div>
+
+                <div class="mt-4">
+                    <label class="flex items-center">
+                        <input type="checkbox" class="mr-2">
+                        <span class="text-sm text-gray-600">Acepto los Términos y condiciones</span>
+                    </label>
+                    <label class="flex items-center mt-2">
+                        <input type="checkbox" class="mr-2">
+                        <span class="text-sm text-gray-600">Acepto recibir información por correo</span>
+                    </label>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
